@@ -21,13 +21,13 @@ public static class SeedData
             }
             context.Movie.AddRange(
              new Movie
-{
-    Title = "When Harry Met Sally",
-    ReleaseDate = DateTime.Parse("1989-1-11"),
-    Genre = "Romantic Comedy",
-    Rating = "R",
-    Price = 7.99M
-},
+             {
+                 Title = "When Harry Met Sally",
+                 ReleaseDate = DateTime.Parse("1989-1-11"),
+                 Genre = "Romantic Comedy",
+                 Rating = "R",
+                 Price = 7.99M
+             },
                 new Movie
                 {
                     Title = "Ghostbusters ",
@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "PG",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Apocalypse Z",
+                    ReleaseDate = DateTime.Parse("2026-10-09"),
+                    Genre = "Action horror Thriller",
+                    Rating = "PG",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "Heart of the Beast",
+                    ReleaseDate = DateTime.Parse("2026-09-19"),
+                    Genre = "Adventure Thriller",
+                    Rating = "PG",
+                    Price = 10.99M
+                },
+                new Movie
+                {
+                    Title = "Hope",
+                    ReleaseDate = DateTime.Parse("2026-07-15"),
+                    Genre = "Action Mystery science fiction",
+                    Rating = "PG",
+                    Price = 15.99M
                 }
             );
             context.SaveChanges();
