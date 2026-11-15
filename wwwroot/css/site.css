@@ -52,3 +52,91 @@ form select {
 form input[type="submit"] {
   padding: 0.5rem 1.25rem;
 }
+
+/* Movie list as cards */
+.movie-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.movie-poster-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecef;
+  color: #6c757d;
+}
+
+.movie-info {
+  padding: 0.75rem 1rem 1rem;
+}
+
+.movie-info h5 {
+  margin-bottom: 0.25rem;
+}
+
+.movie-meta {
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+}
+
+.movie-price {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.movie-actions {
+  font-size: 0.9rem;
+}
+
+/* Details page */
+.movie-details {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.movie-details-poster {
+  width: 280px;
+  max-width: 100%;
+}
+
+.movie-details-poster .movie-poster {
+  border-radius: 0.75rem;
+}
+
+.movie-details-info {
+  flex: 1;
+  min-width: 250px;
+  align-content: start;
+}

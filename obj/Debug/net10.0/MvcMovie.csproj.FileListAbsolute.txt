@@ -254,7 +254,6 @@ C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\scopedcss\bundle\MvcMovie.styles.css
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
-C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\compressed\8151r5ozgn-{0}-tkm4ry9l2g-tkm4ry9l2g.gz
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\compressed\dqa1xiugtd-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\compressed\6clnpnw2tb-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\compressed\gln79jq0fq-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -329,3 +328,4 @@ C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\refint\MvcMovie.dll
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\MvcMovie.pdb
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\MvcMovie.genruntimeconfig.cache
 C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\ref\MvcMovie.dll
+C:\Users\Rexka\MvcMovie\obj\Debug\net10.0\compressed\8151r5ozgn-{0}-5ngrkxt8hw-5ngrkxt8hw.gz
